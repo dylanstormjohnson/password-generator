@@ -154,6 +154,6 @@ function generatePassword () {
     password.push(computerChoice);
   }
 
-  return password
+  return password.join("")
 
 }
